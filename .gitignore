@@ -1,0 +1,46 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Flask
+flask.log
+instance/
+.webassets-cache
+
+# Environment Variables
+.env
+.env.*
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# SQLite Database (if any)
+*.sqlite3
+*.db
+
+# Pytest / coverage
+.coverage
+htmlcov/
+
+# Build files
+build/
+dist/
+*.egg-info/
